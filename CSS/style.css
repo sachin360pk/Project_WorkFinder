@@ -65,8 +65,38 @@ nav ul li a:hover{
 .active{
     border-bottom: 1px solid black;
 }
-                   
 
+/* sub menu css */
+.sub-menu-1{
+    display: none;
+}
+#header nav ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#header nav ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+#header nav ul li:hover .sub-menu-1 ul li{
+    width: 250px;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+#header nav ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+#header nav ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+
+                   
 
 
 /* section-front */
@@ -218,35 +248,6 @@ nav ul li a:hover{
 
 
 
-/* sub menu css */
-.sub-menu-1{
-    display: none;
-}
-#header nav ul li:hover .sub-menu-1{
-    display: block;
-    position: absolute;
-    background: #ffffff;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-#header nav ul li:hover .sub-menu-1 ul{
-    display: block;
-    margin: 10px;
-}
-#header nav ul li:hover .sub-menu-1 ul li{
-    width: 250px;
-    padding: 10px;
-    border-bottom: 1px dotted black;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-#header nav ul li:hover .sub-menu-1 ul li:last-child{
-    border-bottom: none;
-}
-#header nav ul li:hover .sub-menu-1 ul li a:hover{
-    color: #b2ff00;
-}
 
 
 
